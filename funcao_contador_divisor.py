@@ -9,7 +9,7 @@ def entrada():
 
 def conta_divisor(n):
     ndiv=0
-    for cont in range(1,n+1):
+    for cont in range(1, n+1):
         resto = n%cont
         if resto==0:
             ndiv=ndiv+1
